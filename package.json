@@ -47,7 +47,8 @@
     "steamcommunity": "^3.38.0",
     "superagent": "^4.0.0-beta.5",
     "weather-js": "^2.0.0",
-    "ytdl-core": "^2.0.1"
+    "ytdl-core": "^2.0.1",
+    "ms": "^2.1.2"
   },
   "engines": {
     "node": "8.x"
