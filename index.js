@@ -10,12 +10,12 @@ const queue = new Map();
 const youtube = new YouTube(GOOGLE_API_KEY);
 const ytdl = require('ytdl-core');
 
-let prefix = "!";//botun ön eki 
+let prefix = "v!";//botun ön eki 
 let owner = "265150978603352074";// sizin id'niz
 
 bot.on("ready", guild => {
     bot.user.setActivity('Şarkı :)', { type: 'LISTENING'  })
-  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
+  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Sizi Eğlendiren Bot'}`))
   .catch(console.error);
     console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + bot.channels.size + ` adet kanala, ` + bot.guilds.size + ` adet sunucuya ve ` + bot.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
     console.log("Bağlandım!")
