@@ -23,7 +23,7 @@ bot.on("ready", guild => {
 
 bot.on('guildMemberAdd', member => {
   let guild = member.guild;
-  let joinRole = guild.roles.find('name', 'Player');// 'Üye' yazılan yeri otomatik rol vereceği rolü yapabilirsiniz.
+  let joinRole = guild.roles.find('name', 'Booşsdasadas');// 'Üye' yazılan yeri otomatik rol vereceği rolü yapabilirsiniz.
   member.sendMessage("Vlorian Bot | OtoRol")
   member.addRole(joinRole);
 
