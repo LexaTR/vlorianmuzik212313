@@ -261,7 +261,7 @@ client.on('message', async msg => {
     .setColor('RANDOM'));
 		  return msg.channel.sendEmbed(new Discord.RichEmbed()
     .setColor('RANDOM')
-     .setTitle('Gnarge Bot | Şarkı Kuyruğu')
+     .setTitle('Vlorian | Şarkı Kuyruğu')
     .setDescription(`${serverQueue.songs.map(song => `**${++index} -** ${song.title}`).join('\n')}`))
     .addField('Şu anda çalınan: ' + `${serverQueue.songs[0].title}`);
 	} else if (command === 'duraklat') {
@@ -358,7 +358,7 @@ function play(guild, song) {
 	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 
 	 serverQueue.textChannel.sendEmbed(new Discord.RichEmbed()                                   
-  .setTitle("**Gnarge| 🎙 Müzik Başladı**",`https://cdn.discordapp.com/avatars/473974675194511361/6bb90de9efe9fb80081b185266bb94a6.png?size=2048`)
+  .setTitle("**Vlorian | 🎙 Müzik Başladı**",`https://cdn.discordapp.com/avatars/473974675194511361/6bb90de9efe9fb80081b185266bb94a6.png?size=2048`)
   .setThumbnail(`https://i.ytimg.com/vi/${song.id}/default.jpg?width=80&height=60`)
   .addField('\nBaşlık', `[${song.title}](${song.url})`, true)
   .addField("\nSes Seviyesi", `${serverQueue.volume}%`, true)
