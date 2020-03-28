@@ -34,6 +34,13 @@ exports.run = (client, message) => {
       "Bak şu karışıdaki uçak PİSTİ , ama bir türlü temizlemediler.",
       "Top ağlarda, ben ağlamaz mıyım ?",
       "Burger King, bende vezir",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",  
     ];
     var espri = espriler[Math.floor(Math.random() * espriler.length)];
     message.edit(`${espri}`);

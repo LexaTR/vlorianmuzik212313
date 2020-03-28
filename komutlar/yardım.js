@@ -8,8 +8,8 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**Müzik Komutlar**", "!müzik (isim-url) = Şarkı açar \n!geç = Sonraki şarkıya geçer \n!ses (Ses seviyesi) = Şarkının ses seviyesini değiştirir \n!durdur = Şarkıyı durdurur")                                                    
-  .addField("**Eğlence Komutları**", ".")
+  .addField("**Müzik Komutlar**", "v!müzik (isim-url) = Şarkı açar \nv!geç = Sonraki şarkıya geçer \nv!ses (Ses seviyesi) = Şarkının ses seviyesini değiştirir \nv!durdur = Şarkıyı durdurur")                                                    
+  .addField("**Eğlence Komutları**", "v!çayiç = Çay içer \nv!yıkıkkim = dc deki yıkığı bulur \nv!kaçcm = Malafatını ölçer \nv!espri = Espri yapar \nv!aşkölçer = Aşk ölçer \nv!dc = Doğruluk Cesaretlik Oynatır \nv!8ball = Sorunuza cevap verir \n")                                                                  
   .addField("**Yapımcı**", " **Deuxcharen#0001**")
   .setFooter('**--------------------------**')
   if (!params[0]) {
