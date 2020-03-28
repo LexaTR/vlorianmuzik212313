@@ -34,11 +34,11 @@ module.exports.run = async (bot, message, args) => {
   if(!mutetime) return message.channel.send("Süre belirt!");
 
   await(tomute.addRole(muterole.id));
-  message.reply(`<@${tomute.id}> has been muted for ${ms(ms(mutetime))}`);
+  message.reply(`<@${tomute.id}> Kullanıcı Mutelendi ${ms(ms(mutetime))} Kadar`);
 
   setTimeout(function(){
     tomute.removeRole(muterole.id);
-    message.channel.send(`<@${tomute.id}> has been unmuted!`);
+    message.channel.send(`<@${tomute.id}> Kullanıcısı Susturuldu!`);
   }, ms(mutetime));
 
   message.delete();
@@ -49,7 +49,7 @@ module.exports.run = async (bot, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['sus'],
+  aliases: ['sus', 'keslan', 'keslankes'],
   permLevel: 0
 };
 
