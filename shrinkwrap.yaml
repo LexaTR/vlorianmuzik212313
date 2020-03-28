@@ -20,6 +20,7 @@ dependencies:
   moment-duration-format: 2.3.2
   node-gyp: 3.8.0
   node-opus: 0.3.3
+  opusscript: 0.0.7
   path: 0.12.7
   quick-db: 1.0.5
   quick.db: 6.3.2
@@ -35,7 +36,7 @@ dependencies:
   steamcommunity: 3.41.3
   superagent: 4.1.0
   weather-js: 2.0.0
-  ytdl-core: 0.26.3
+  ytdl-core: 2.0.1
 packages:
   /@babel/polyfill/7.8.7:
     dependencies:
@@ -2561,7 +2562,7 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-X/2yK+b4aDKZ217m3LJF3fKfzl8X9duDmGyLq1pm/Q+/P8e4pJzmMaP+Z+sRLwtLaUsyvSzvdzk1EAP23cWvvQ==
-  /m3u8stream/0.4.2:
+  /m3u8stream/0.6.5:
     dependencies:
       miniget: 1.7.0
       sax: 1.2.4
@@ -2569,7 +2570,7 @@ packages:
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-VZeobA83iQdd2TY12K2DNLuUmE1XNjN660SYU9s6A4kP7ZhFEp/bQPUpOWU2EbkFYwsonyaFT+RxLDr1OhPTRA==
+      integrity: sha512-QZCzhcfUliZfsOboi68QkNcMejPKTEhxE+s1TApvHubDeR8ythm4ViWuYFqgUwZeoHe8q0nsPxOvA3lQvdSzyg==
   /make-dir/1.3.0:
     dependencies:
       pify: 3.0.0
@@ -2953,6 +2954,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-yQlBrVnkJzMokjB00s8ufLxuwNk=
+  /opusscript/0.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-DcBadTdYTUuH9zQtepsLjQn4Ll6rs3dmeFvN+SD0ThPnxRBRm/WC1zXWPg+wgAJimB784gdZvUMA57gDP7FdVg==
   /os-homedir/1.0.2:
     dev: false
     engines:
@@ -4269,17 +4274,17 @@ packages:
     dev: false
     resolution:
       integrity: sha1-AI4G2AlDIMNy28L47XagymyKxBk=
-  /ytdl-core/0.26.3:
+  /ytdl-core/2.0.1:
     dependencies:
       html-entities: 1.2.1
-      m3u8stream: 0.4.2
+      m3u8stream: 0.6.5
       miniget: 1.7.0
       sax: 1.2.4
     dev: false
     engines:
-      node: '>=6'
+      node: '>=10'
     resolution:
-      integrity: sha512-KD0SLFqVNhH8N4Ie+qdusqfFmyX7SB6+y+S1MCI7vY9zS/wjRxH/zgoYRUwpP+YfXaiWzBPVIzy/5wK5asVUXQ==
+      integrity: sha512-PZBcVzQpkBxi9OQh9I4QIrYNmkbM/zh4QJQuxE8I6RojLUVYkkps5iLYquE3H+pwmBXtEXQMDJfVRajgdiz+iA==
   /zip-stream/1.2.0:
     dependencies:
       archiver-utils: 1.3.0
@@ -4315,7 +4320,8 @@ specifiers:
   moment: ^2.22.2
   moment-duration-format: ^2.2.2
   node-gyp: ^3.8.0
-  node-opus: ^0.3.0
+  node-opus: ^0.3.3
+  opusscript: ^0.0.7
   path: ^0.12.7
   quick-db: ^1.0.5
   quick.db: ^6.3.2
@@ -4324,11 +4330,11 @@ specifiers:
   rebuild: ^0.1.2
   request: ^2.88.0
   server.js: ^1.0.0
-  simple-youtube-api: ^5.1.0
+  simple-youtube-api: ^5.2.1
   snekfetch: ^4.0.4
   sqlite: ^3.0.0
   steam-provider: ^0.2.0
   steamcommunity: ^3.38.0
   superagent: ^4.0.0-beta.5
   weather-js: ^2.0.0
-  ytdl-core: ^0.26.3
+  ytdl-core: ^2.0.1
