@@ -31,6 +31,7 @@ exports.run = async (client, msg, args) => {
       "Aşkölçer %98 Gösteriyor.",
       "Aşkölçer %99 Gösteriyor.",
       "Aşkölçer %100 Gösteriyor.",
+      "Aşkölçer %500 Gösteriyor. Bu kişiye aitsin <3",
     ]
       let member = msg.mentions.members.first()
      if(!member)return msg.channel.send({embed: {
