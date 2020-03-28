@@ -21,7 +21,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'yapımcım',
+  name: 'yapımcı',
   description: 'Yapimcimi Gosterir.',
   usage: 'yapimcim'
 };
