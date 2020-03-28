@@ -9,9 +9,9 @@ exports.run = (client, message, params) => {
   .setDescription('')
   .setColor(0x00ffff)
   .addField("**Müzik Komutlar**", "v!müzik (isim-url) = Şarkı açar \nv!geç = Sonraki şarkıya geçer \nv!ses (Ses seviyesi) = Şarkının ses seviyesini değiştirir \nv!durdur = Şarkıyı durdurur")                                                    
-  .addField("**Eğlence Komutları**", "v!çayiç = Çay içer \nv!yıkıkkim = dc deki yıkığı bulur \nv!kaçcm = Malafatını ölçer \nv!espri = Espri yapar \nv!aşkölçer = Aşk ölçer \nv!dc = Doğruluk Cesaretlik Oynatır \nv!8ball = Sorunuza cevap verir \n")                                                                  
+  .addField("**Eğlence Komutları**", "v!çayiç = Çay içer \nv!yıkıkkim = dc deki yıkığı bulur \nv!kaçcm = Malafatını ölçer \nv!espri = Espri yapar \nv!aşkölçer = Aşk ölçer \nv!dc = Doğruluk Cesaretlik Oynatır \nv!8ball = Sorunuza cevap verir \nv!ib = İlginç bilgiler gösterir")                                                                  
   .addField("**Yapımcı**", " **Deuxcharen#0001**")
-  .setFooter('**--------------------------**')
+  .setFooter('**Vlorian | Discord Sunucusu**')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
