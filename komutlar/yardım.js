@@ -8,9 +8,9 @@ exports.run = (client, message, params) => {
   .setTitle("Komutlar")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**Müzik Komutlar**", "")
+  .addField("**Müzik Komutlar**", "!müzik (isim-url) = Şarkı açar \n!geç = Sonraki şarkıya geçer \n!ses (Ses seviyesi) = Şarkının ses seviyesini değiştirir \n!durdur = Şarkıyı durdurur")                                                    
   .addField("**Eğlence Komutları**", ".")
-  .addField("**Yapımcı**", " **Deuxcharen#0001** ")
+  .addField("**Yapımcı**", " **Deuxcharen#0001**")
   .setFooter('**--------------------------**')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
