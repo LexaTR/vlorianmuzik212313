@@ -146,7 +146,7 @@ client.on('message', async msg => {
 	let command = msg.content.toLowerCase().split(' ')[0];
 	command = command.slice(prefix.length)
 
-	if (command === 'çal') {
+	if (command === 'müzik') {
 		const voiceChannel = msg.member.voiceChannel;
 		if (!voiceChannel) return msg.channel.sendEmbed(new Discord.RichEmbed()
       .setColor('RANDOM')
